@@ -1,0 +1,23 @@
+.color-FF6600 {
+    color: #FF6600;
+  }
+  .color-FF0000 {
+    color: #FF0000;
+  }
+  .color-00FF00 {
+    color: #00FF00;
+  }
+  .color-0000FF {
+    color: #0000FF;
+  }
+  .color-9d8af8{
+    color: #9d8af8	;
+  }
+  .color-74c1c7{
+    color: #74c1c7	;
+  }
+  /* Thêm các quy tắc CSS cho các mã màu khác ở đây */
+  /* Override color of table cells */
+  .my-table .ant-table-cell {
+    color: inherit !important;
+  }

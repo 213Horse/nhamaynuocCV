@@ -1,0 +1,20 @@
+/* Table payment */
+.container-tbl-payment {
+  margin-bottom: 40px;
+}
+
+/* button search */
+.btn-search-payment {
+  margin-left: 10px;
+}
+
+/* Button payment */
+.func-payment-for-one-bill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.payment-for-one-bill-notion-btn {
+  margin-right: 12px;
+}

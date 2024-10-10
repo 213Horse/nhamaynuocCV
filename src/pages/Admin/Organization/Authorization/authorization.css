@@ -1,0 +1,70 @@
+.auth-wrapper {
+   height: 100%;
+   background-color: #fff;
+   border-radius: 6px;
+   padding: 8px;
+}
+
+.auth-tab .ant-tabs-nav::before{
+   border: none;
+}
+
+.auth-tab .ant-tabs-tab{
+   border: none !important;
+}
+.auth-tab .ant-tabs-tab:not(:first-child){
+   margin-left: 6px!important;
+}
+.auth-tab-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   border: none;
+   outline: none;
+}
+.auth-tab-btn:hover {
+   color: white!important;
+}
+.auth-tab-btn span{
+   margin: 2px!important;
+}
+
+.auth-table {
+   margin-top: 4px;
+}
+.auth-tab-btn-refresh,
+.auth-tab-btn-update,
+.auth-tab-btn-add {
+   background-color: var(--blue-btn);
+}
+.auth-tab-btn-refresh:hover,
+.auth-tab-btn-update:hover,
+.auth-tab-btn-add:hover {
+   background-color: var(--blue-btn-hover);
+}
+
+.auth-tab-btn-delete {
+   background-color: var(--red-btn);
+}
+
+.auth-tab-btn-delete:hover {
+   background-color: var(--red);
+}
+
+.auth-tab-btn-edit {
+   background-color: var(--green-btn);
+}
+
+.auth-tab-btn-edit:hover {
+   background-color: var(--green-btn-hover);
+}
+
+.auth-tab-btn-disabled {
+   background-color: var(--btn-disabled)!important;
+   color: white!important;
+}
+
+.auth-tab-btn-disabled:hover {
+   background-color: var(--btn-disabled);
+}

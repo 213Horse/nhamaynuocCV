@@ -1,0 +1,20 @@
+.custom-sidebar-menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: 84vh !important;
+  overflow-y: scroll;
+}
+
+.custom-sidebar-menu .ant-menu-item.ant-menu-item-only-child,
+.custom-sidebar-menu .ant-menu-submenu-title {
+  height: 26px !important;
+  line-height: 26px !important;
+}
+
+@media (max-width: 768px) {
+  .ant-tooltip-placement-top {
+    display: none;
+  }
+}

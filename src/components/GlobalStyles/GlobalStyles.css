@@ -1,0 +1,1186 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200&family=Quicksand:wght@300;400;500;600;700;800;900&display=swap");
+
+/* init var */
+:root {
+  /* color */
+  --white: #fff;
+  --red: #ff0000;
+  --blue-e6f4ff: #e6f4ff;
+  --blue-1677ff: #1677ff;
+  --text-table: #5a6a85;
+  --btn-disabled: #808080;
+
+  /* buttons */
+  --blue-btn: #1677ffe3;
+  --blue-btn-hover: #0064f1e3;
+  --blue-light-btn: #5d87ff;
+  --blue-light-btn-hover: #385bff;
+  --blue-normal-btn: #3580bb;
+  --blue-normal-btn-hover: #3e96db;
+  --orange-btn: #fa896b;
+  --orange-btn-hover: #e9491f;
+  --orange-light-btn: #f5bd75;
+  --orange-light-btn-hover: #f3a641;
+  --orange-medium-btn: #f0974f;
+  --orange-medium-btn-hover: #e97415;
+  --orange-normal-btn: #ffae1f;
+  --orange-normal-btn-hover: #fe9d00;
+  --red-btn: #f64848;
+  --green-btn: #0ce3bc;
+  --green-btn-hover: #00cca7;
+  --purple-btn: #7d94ff;
+  --purple-btn-hover: #3b59e7;
+  --sky-blue: #71d1f8;
+  --sky-blue-hover: #31b7ec;
+
+  /* font-family */
+  --font-family: "Quicksand", "sans-serif" !important;
+}
+.td.ant-table-cell.cell-wrap {
+  color: gray;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* default */
+body {
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+.fix-popover-z-index {
+  z-index: 10 !important;
+}
+
+/* dãn cột table */
+.cell-wrap {
+  word-wrap: break-word;
+}
+/* custom */
+.gutter-item-mobile {
+  margin-left: 10px;
+}
+
+/* color text of table */
+.ant-table-cell {
+  font-size: 1.4rem !important;
+  color: var(--text-table);
+}
+
+/* custom Tabs */
+.ant-tabs-tab {
+  padding: 0 !important;
+}
+
+.wrapper-tab-modal-create-contract .ant-tabs-tab {
+  padding: 6px !important;
+}
+
+.wrapper-form-update-clock .ant-tabs-tab {
+  padding: 6px !important;
+}
+
+.tab-item-disabled {
+  background-color: var(--btn-disabled);
+}
+
+.tab-item-disabled:hover {
+  background-color: var(--btn-disabled);
+}
+
+/* custom buttons */
+.custom-btn-search {
+  border: 1px solid var(--blue-1677ff);
+  color: var(--blue-1677ff);
+}
+
+.custom-btn-search:hover {
+  border: 1px solid var(--blue-1677ff);
+  background-color: var(--blue-1677ff);
+  color: var(--white) !important;
+}
+
+.custom-btn-del {
+  border: 1px solid var(--red-btn);
+  color: var(--white);
+  background-color: var(--red-btn);
+}
+
+.custom-btn-del:hover {
+  border: 1px solid var(--red) !important;
+  color: var(--white) !important;
+  background-color: var(--red);
+}
+
+.custom-btn-export {
+  border: 1px solid var(--green-btn);
+  color: var(--white);
+  background-color: var(--green-btn);
+}
+
+.custom-btn-export:hover {
+  border: 1px solid var(--green-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--green-btn-hover);
+}
+
+.custom-btn-update {
+  border: 1px solid var(--sky-blue);
+  color: var(--white);
+  background-color: var(--sky-blue);
+}
+
+.custom-btn-update:hover {
+  border: 1px solid var(--sky-blue-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--sky-blue-hover);
+}
+
+.custom-btn-add {
+  border: 1px solid var(--blue-btn);
+  color: var(--white);
+  background-color: var(--blue-btn);
+}
+
+.custom-btn-add:hover {
+  border: 1px solid var(--blue-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-btn-hover);
+}
+
+.custom-btn-save-and-add {
+  border: 1px solid var(--purple-btn);
+  color: var(--white);
+  background-color: var(--purple-btn);
+}
+
+.custom-btn-save-and-add:hover {
+  border: 1px solid var(--purple-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--purple-btn-hover);
+}
+
+.custom-btn-close {
+  border: 1px solid var(--orange-btn);
+  color: var(--white);
+  background-color: var(--orange-btn);
+}
+
+.custom-btn-close:hover {
+  border: 1px solid var(--orange-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-btn-hover);
+}
+
+.custom-btn-reset {
+  border: 1px solid var(--blue-light-btn);
+  color: var(--white);
+  background-color: var(--blue-light-btn);
+}
+
+.custom-btn-reset:hover {
+  border: 1px solid var(--blue-light-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-light-btn-hover);
+}
+
+.custom-btn-watch-report {
+  border: 1px solid var(--orange-normal-btn);
+  color: var(--white);
+  background-color: var(--orange-normal-btn);
+}
+
+.custom-btn-watch-report:hover {
+  border: 1px solid var(--orange-normal-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-normal-btn-hover);
+}
+
+/* Biên bản thỏa hiệp */
+.custom-btn-agreement {
+  border: 1px solid var(--orange-light-btn);
+  color: var(--white);
+  background-color: var(--orange-light-btn);
+}
+
+.custom-btn-agreement:hover {
+  border: 1px solid var(--orange-light-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-light-btn-hover);
+}
+
+/* Tệp đính kèm  */
+.custom-btn-attachment {
+  border: 1px solid var(--orange-medium-btn);
+  color: var(--white);
+  background-color: var(--orange-medium-btn);
+}
+
+.custom-btn-attachment:hover {
+  border: 1px solid var(--orange-medium-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-medium-btn-hover);
+}
+
+/* Sắp xếp */
+.custom-btn-sort {
+  border: 1px solid var(--blue-normal-btn);
+  color: var(--white);
+  background-color: var(--blue-normal-btn);
+}
+
+.custom-btn-sort:hover {
+  border: 1px solid var(--blue-normal-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-normal-btn-hover);
+}
+/* Custom bc ep ip*/
+.custom-btn-search-d {
+  border: 1px solid var(--blue-1677ff);
+  color: var(--blue-1677ff);
+}
+
+.custom-btn-search-d:hover {
+  border: 1px solid var(--blue-1677ff);
+  background-color: var(--blue-1677ff);
+  color: var(--white) !important;
+}
+
+.custom-btn-search-d1 {
+  border: 1px solid var(--blue-1677ff);
+  color: var(--blue-1677ff);
+}
+
+.custom-btn-search-d1:hover {
+  border: 1px solid var(--blue-1677ff);
+  background-color: var(--blue-1677ff);
+  color: var(--white) !important;
+}
+.custom-btn-export-d {
+  border: 1px solid var(--green-btn);
+  color: var(--white);
+  background-color: var(--green-btn);
+}
+
+.custom-btn-export-d:hover {
+  border: 1px solid var(--green-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--green-btn-hover);
+}
+
+.custom-btn-update-d {
+  border: 1px solid var(--sky-blue);
+  color: var(--white);
+  background-color: var(--sky-blue);
+}
+
+.custom-btn-update-d:hover {
+  border: 1px solid var(--sky-blue-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--sky-blue-hover);
+}
+
+.custom-btn-add-d {
+  border: 1px solid var(--blue-btn);
+  color: var(--white);
+  background-color: var(--blue-btn);
+}
+
+.custom-btn-add-d:hover {
+  border: 1px solid var(--blue-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-btn-hover);
+}
+
+.custom-btn-save-and-add-d {
+  border: 1px solid var(--purple-btn);
+  color: var(--white);
+  background-color: var(--purple-btn);
+}
+
+.custom-btn-save-and-add-d:not(:disabled):hover {
+  border: 1px solid var(--purple-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--purple-btn-hover);
+}
+
+.custom-btn-close-d {
+  border: 1px solid var(--orange-btn);
+  color: var(--white);
+  background-color: var(--orange-btn);
+}
+
+.custom-btn-close-d:hover {
+  border: 1px solid var(--orange-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-btn-hover);
+}
+.custom-btn-close-d1 {
+  border: 1px solid var(--orange-btn);
+  color: var(--white);
+  background-color: var(--orange-btn);
+}
+
+.custom-btn-close-d1:hover {
+  border: 1px solid var(--orange-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-btn-hover);
+}
+.custom-btn-reset-d {
+  border: 1px solid var(--blue-light-btn);
+  color: var(--white);
+  background-color: var(--blue-light-btn);
+}
+
+.custom-btn-reset-d:not(:disabled):hover {
+  border: 1px solid var(--blue-light-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-light-btn-hover);
+}
+.custom-btn-reset-d1 {
+  border: 1px solid var(--blue-light-btn);
+  color: var(--white);
+  background-color: var(--blue-light-btn);
+}
+
+.custom-btn-reset-d1:hover {
+  border: 1px solid var(--blue-light-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--blue-light-btn-hover);
+}
+.custom-btn-watch-report-d {
+  border: 1px solid var(--orange-normal-btn);
+  color: var(--white);
+  background-color: var(--orange-normal-btn);
+}
+
+.custom-btn-watch-report-d:not(:disabled):hover {
+  border: 1px solid var(--orange-normal-btn-hover) !important;
+  color: var(--white) !important;
+  background-color: var(--orange-normal-btn-hover);
+}
+
+/* end custom buttons */
+
+/* Scrollbar Css */
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Table antd */
+.ant-table-thead .ant-table-cell {
+  font-size: 1.6rem;
+  font-weight: 800 !important;
+}
+
+.ant-table-cell {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Tablist nav */
+.ant-tabs-nav-list {
+  margin-right: 10px;
+}
+
+.ant-tabs-tab-btn {
+  width: 100%;
+}
+
+/* ----- RESPONSIVE HERE ----- */
+
+/* Thiết kế cho kích thước màn hình dưới 576px (mobile) */
+@media (max-width: 575px) {
+  /* customer dev */
+  .container-form-cus-dev {
+    padding-right: 18px;
+  }
+
+  .reset-report-btn {
+    margin: 12px 0;
+  }
+
+  .reporter-auto-search-input {
+    width: 100%;
+  }
+
+  /* contract */
+  .contract-search-btn {
+    margin-left: 0;
+    margin-bottom: 12px;
+  }
+
+  .container-tbl-contract {
+    margin-top: 12px;
+  }
+
+  /* tabs bottom (page contract) */
+  .contract-bottom-func {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    padding: 12px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+
+  /* Modal (Danh sách sắp xếp đồng hồ) */
+  .func-sort-number-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .item-sort-number-btn,
+  .item-sort-number-btn-close {
+    margin-right: 0;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  /* Modal (Thông tin hợp đồng nợ) */
+  .debt-func-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .space-btn-item,
+  .space-btn-item-close {
+    margin-right: 0;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  /* Modal (Form update clock) */
+  .btn-func-change-clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .btn-close-change-clock {
+    margin-left: 0;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .btn-update-change-clock {
+    width: 100%;
+  }
+
+  /* Modal (Cập nhật thông tin hợp đồng) */
+  .collapse-space-top-mobile-item {
+    margin-top: 10px;
+  }
+
+  /* info clock */
+  .func-info-clock-btn-mobile {
+    margin-top: 10px;
+  }
+
+  .tablist-func-clock-btn-mobile {
+    margin-top: 10px;
+    margin-right: 0 !important;
+    width: 100%;
+  }
+
+  .space-top-10 {
+    margin-top: 10px;
+  }
+
+  /* info detail clock */
+  .fix-input-number-mobile {
+    width: 100%;
+  }
+
+  .fix-date-picker-mobile {
+    width: 100%;
+  }
+
+  .func-form-create-contract-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gutter-item-btn {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  .collapse-space-left-item {
+    margin-left: 0;
+  }
+
+  .container-info-contract {
+    /* height: 50vh; */
+    overflow-y: scroll;
+    padding: 4px;
+    border-radius: 6px;
+    margin-right: 0;
+  }
+
+  .container-info-clock {
+    height: 100%;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+
+  .container-info-customer {
+    /* height: 50vh; */
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 0;
+  }
+
+  .container-detail-clock {
+    /* height: 50vh; */
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .custom-btn-attachment {
+    margin-top: 20px;
+  }
+
+  .tablist-func-clock-btn-mobile {
+    margin-right: 10px;
+  }
+
+  .footer-func-btn-item-report {
+    margin: 10px 0;
+  }
+
+  .footer-func-btn-item-print {
+    margin-bottom: 10px;
+  }
+
+  .footer-func-btn-item-save-add {
+    margin-bottom: 10px;
+  }
+
+  .footer-func-btn-item-save {
+    margin-bottom: 10px;
+  }
+
+  /* payment */
+  .btn-search-payment {
+    margin-left: 0;
+    margin-bottom: 22px;
+  }
+
+  .gutter-item-mobile {
+    margin: 0;
+  }
+
+  .space-top-10 {
+    margin-top: 10px;
+  }
+
+  .pay-counter-footer-quantity {
+    margin: 10px 0;
+    margin-right: 0 !important;
+  }
+
+  .pay-counter-footer-total {
+    margin: 10px 0;
+    margin-right: 0 !important;
+  }
+
+  /* .custom-btn-reset */
+  .custom-btn-export,
+  .custom-btn-watch-report {
+    width: 100%;
+  }
+
+  .pay-counter-pay-and-close {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custom-btn-close {
+    margin-left: 0 !important;
+  }
+
+  /* modal (các chỉ số) */
+
+  .custom-progress-mobile {
+    overflow-x: auto;
+  }
+
+  .custom-btn-attachment-d,
+  .custom-btn-search-d,
+  .custom-btn-reset-d,
+  .custom-btn-export-d,
+  .custom-btn-left-d,
+  .custom-btn-right-d,
+  .custom-btn-update-d,
+  .custom-btn-save-and-add-d,
+  .custom-btn-watch-report-d,
+  .custom-btn-close-d {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  .custom-btn-search-d1,
+  .custom-btn-close-d1,
+  .custom-btn-reset-d1 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .container-label-input.container-label-input-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .space-right-10.inp-select-item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .inp-checkbox-item {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .inp-checkbox-to-date-item {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .btn-export-item {
+    margin-left: 0;
+  }
+
+  /* Số thứ tự: */
+  .info-his-item-val-stt {
+    margin-left: 74px;
+  }
+
+  /* Mã khách hàng cũ */
+  .info-his-item-val-mkhc {
+    margin-left: 10px;
+  }
+
+  /* Tên khách hàng */
+  .info-his-item-val-tkh {
+    margin-left: 28px;
+  }
+
+  /* Địa chỉ: */
+  .info-his-item-val-address {
+    margin-left: 94px;
+  }
+
+  /* Địa chỉ sử dụng: */
+  .info-his-item-val-address-use {
+    margin-left: 32px;
+  }
+
+  /* Số điện thoại */
+  .info-his-item-val-phone {
+    margin-left: 47px;
+  }
+
+  /* Ngày ký hợp đồng */
+  .info-his-item-val-nkhd {
+    margin-left: 9px;
+  }
+
+  /* Ngày thay cuối */
+  .info-his-item-val-ntc {
+    margin-left: 34px;
+  }
+
+  /* Loại đồng hồ: */
+  .info-his-item-val-type-contract {
+    margin-left: 50px;
+  }
+
+  /* Mã số thuế: */
+  .info-his-item-val-mst {
+    margin-left: 63px;
+  }
+
+  /* Đối tượng sử dụng */
+  .info-his-item-val-obj-use {
+    margin-left: 10px;
+  }
+
+  /* Mã tiêu thụ */
+  .info-his-item-val-mtt {
+    margin-left: 62px;
+  }
+
+  /* Ngày lắp đặt */
+  .info-his-item-val-nld {
+    margin-left: 48px;
+  }
+
+  /* Số đồng hồ */
+  .info-his-item-val-sdt {
+    margin-left: 63px;
+  }
+
+  /* Reporter */
+  .wrapper-reporter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reset-report-btn.custom-btn-reset {
+    margin-left: 0 !important;
+  }
+
+  .files-btn-close {
+    margin-left: 10px !important;
+  }
+
+  /* Tab modal create contract */
+  .wrapper-tab-modal-create-contract {
+    width: 100%;
+    resize: horizontal;
+    overflow: hidden;
+  }
+
+  .space-top-40 {
+    margin-top: 40px;
+  }
+
+  /* Modal (Đồng hồ mới) */
+  .modal-clock-new-info {
+    margin-top: 24px;
+    height: 86vh;
+  }
+
+  .select-form-fac {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+  }
+
+  /* .splitter-bottom {
+        margin-top: -60px;
+    } */
+}
+
+/* Thiết kế cho kích thước màn hình từ 576px đến 767px (tablet) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* customer dev */
+  .container-form-cus-dev {
+    padding-right: 18px;
+  }
+
+  /* contract */
+  .contract-search-btn {
+    margin-left: 0;
+    margin-bottom: 12px;
+  }
+
+  .collapse-space-left-item {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  /* tabs bottom (page contract) */
+  .contract-bottom-func {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    padding: 12px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+
+  .container-info-contract {
+    overflow-y: scroll;
+  }
+
+  .container-info-clock {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  /* info clock */
+  .func-info-clock-btn-mobile {
+    margin-top: 10px;
+  }
+
+  .container-info-customer {
+    /* height: 65vh; */
+    overflow-y: scroll;
+    margin-right: 0 !important;
+  }
+
+  .tablist-func-clock-btn-mobile {
+    margin-right: 10px;
+  }
+
+  .footer-func-btn-item-report {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+  }
+
+  .footer-func-btn-item-print {
+    margin-right: 8px;
+  }
+
+  .footer-func-btn-item-save-add {
+    margin-right: 8px;
+  }
+
+  .footer-func-btn-item-save {
+    margin-right: 8px;
+  }
+
+  /* payment */
+  .btn-search-payment {
+    margin-left: 0;
+    margin-bottom: 22px;
+  }
+
+  /* form pay counter */
+  .pay-counter-footer-quantity {
+    margin: 10px 0;
+    margin-right: 0 !important;
+  }
+
+  .pay-counter-footer-total {
+    margin: 10px 0;
+    margin-right: 0 !important;
+  }
+  .custom-btn-attachment-d,
+  .custom-btn-search-d,
+  .custom-btn-reset-d,
+  .custom-btn-export-d,
+  .custom-btn-left-d,
+  .custom-btn-right-d,
+  .custom-btn-update-d,
+  .custom-btn-save-and-add-d,
+  .custom-btn-watch-report-d,
+  .custom-btn-close-d {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+
+  .custom-btn-search-d1,
+  .custom-btn-close-d1,
+  .custom-btn-reset-d1 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  /* Số thứ tự: */
+  .info-his-item-val-stt {
+    margin-left: 76px;
+  }
+
+  /* Tên khách hàng */
+  .info-his-item-val-tkh {
+    margin-left: 28px;
+  }
+
+  /* Địa chỉ: */
+  .info-his-item-val-address {
+    margin-left: 93px;
+  }
+
+  /* Địa chỉ sử dụng: */
+  .info-his-item-val-address-use {
+    margin-left: 32px;
+  }
+
+  /* Số điện thoại */
+  .info-his-item-val-phone {
+    margin-left: 47px;
+  }
+
+  /* Ngày thay cuối */
+  .info-his-item-val-ntc {
+    margin-left: 32px;
+  }
+
+  /* Loại đồng hồ: */
+  .info-his-item-val-type-contract {
+    margin-left: 40px;
+  }
+
+  /* Mã số thuế: */
+  .info-his-item-val-mst {
+    margin-left: 52px;
+  }
+
+  /* Đối tượng sử dụng */
+  .info-his-item-val-obj-use {
+    margin-left: 0;
+  }
+
+  /* Mã tiêu thụ */
+  .info-his-item-val-mtt {
+    margin-left: 52px;
+  }
+
+  /* Ngày lắp đặt */
+  .info-his-item-val-nld {
+    margin-left: 46px;
+  }
+
+  /* Số đồng hồ */
+  .info-his-item-val-sdt {
+    margin-left: 60px;
+  }
+
+  .container-info-clock {
+    margin-bottom: 10px;
+  }
+
+  .container-info-contract {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Modal (Đồng hồ mới) */
+  .modal-clock-new-info {
+    height: 86vh;
+  }
+
+  .select-form-fac {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 768px trở lên (desktop) */
+@media (min-width: 768px) {
+  /* customer dev */
+  .container-form-cus-dev {
+    padding-right: 18px;
+  }
+
+  /* contract */
+  .contract-search-btn {
+    /* margin-left: 0; */
+    margin-bottom: 12px;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 769px đến 991px (desktop - large desktop) */
+@media (min-width: 767px) and (max-width: 991px) {
+  /* tabs bottom (page contract) */
+  .contract-bottom-func {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    padding: 12px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+
+  /* payment */
+  .gutter-item-btn {
+    margin-left: 22px;
+  }
+
+  /* Collapse (Contract) */
+  .collapse-space-left-item {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .container-info-contract {
+    /* height: 64vh; */
+    overflow-y: scroll;
+  }
+
+  .container-info-clock {
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  /* info clock */
+  .func-info-clock-btn-mobile {
+    margin-top: 10px;
+  }
+
+  .container-info-customer {
+    /* height: 65vh; */
+    overflow-y: scroll;
+    margin-right: 0 !important;
+  }
+
+  .tablist-func-clock-btn-mobile {
+    margin-right: 10px;
+  }
+
+  .footer-func-btn-item-report {
+    margin: 0 10px;
+  }
+
+  .footer-func-btn-item-save-add {
+    margin: 10px 10px;
+  }
+
+  .footer-func-btn-item-save {
+    margin-right: 10px;
+  }
+
+  /* form pay counter */
+  .pay-counter-footer-quantity {
+    margin: 10px 0;
+  }
+
+  .pay-counter-footer-total {
+    margin: 10px 0;
+    margin-right: 0 !important;
+  }
+
+  /* Số thứ tự: */
+  .info-his-item-val-stt {
+    margin-left: 76px;
+  }
+
+  /* Tên khách hàng */
+  .info-his-item-val-tkh {
+    margin-left: 28px;
+  }
+
+  /* Địa chỉ: */
+  .info-his-item-val-address {
+    margin-left: 93px;
+  }
+
+  /* Địa chỉ sử dụng: */
+  .info-his-item-val-address-use {
+    margin-left: 32px;
+  }
+
+  /* Số điện thoại */
+  .info-his-item-val-phone {
+    margin-left: 47px;
+  }
+
+  /* Ngày thay cuối */
+  .info-his-item-val-ntc {
+    margin-left: 32px;
+  }
+
+  /* Loại đồng hồ: */
+  .info-his-item-val-type-contract {
+    margin-left: 40px;
+  }
+
+  /* Mã số thuế: */
+  .info-his-item-val-mst {
+    margin-left: 52px;
+  }
+
+  /* Đối tượng sử dụng */
+  .info-his-item-val-obj-use {
+    margin-left: 0;
+  }
+
+  /* Mã tiêu thụ */
+  .info-his-item-val-mtt {
+    margin-left: 52px;
+  }
+
+  /* Ngày lắp đặt */
+  .info-his-item-val-nld {
+    margin-left: 46px;
+  }
+
+  /* Số đồng hồ */
+  .info-his-item-val-sdt {
+    margin-left: 60px;
+  }
+
+  .container-info-contract {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .container-info-clock {
+    margin-bottom: 12px;
+  }
+
+  .container-detail-clock {
+    margin-bottom: 12px;
+  }
+
+  /* Modal (Đồng hồ mới) */
+  .modal-clock-new-info {
+    height: 86vh;
+  }
+
+  .select-form-fac {
+    position: absolute;
+    top: 12px;
+    right: 26px;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 992px trở lên (large desktop) */
+@media (min-width: 992px) {
+}
+
+/* ----- END RESPONSIVE ----- */
+
+/* Common */
+.ant-form-item {
+  margin-bottom: 9px;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+  padding: 8px 8px;
+}
+
+.ant-collapse-header {
+  padding: 3px 12px !important;
+  padding-inline-start: 8px;
+}

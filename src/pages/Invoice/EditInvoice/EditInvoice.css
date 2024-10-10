@@ -1,0 +1,16 @@
+.custom-btn-export-Invoice {
+    /* border: 1px solid var(--green-btn); */
+    color: var(--white);
+    background-color: var(--green-btn);
+}
+  
+.custom-btn-close {
+    /* margin-top: 10px; */
+    /* margin-left: 0 !important; */    
+}
+
+.tab-item-EditInvoice-8,
+.tab-item-EditInvoice-3 {
+    background-color: var(--blue-light-btn);
+    color: #fff;
+}

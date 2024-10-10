@@ -1,0 +1,28 @@
+.title {
+  font-weight: 600;
+}
+
+/* .ant-table-tbody
+  .ant-table-expanded-row
+  .ant-table-cell:not(.ant-table-selection-column) {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+} */
+
+.ant-table-row
+  .ant-table-cell.ant-table-selection-column:not(.ant-table-expanded-row) {
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+
+.ant-table-expanded-row .ant-table-cell:first-child {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.parent-table .ant-table-cell {
+  white-space: nowrap;
+}
+
+.child-table .ant-table-cell {
+  white-space: normal;
+}

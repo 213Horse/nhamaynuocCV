@@ -1,0 +1,80 @@
+.permission-tab .ant-tabs-nav-list{
+   margin-right: 0;
+}
+
+.per-wrapper {
+   height: 100%;
+   background-color: #fff;
+   border-radius: 6px;
+   padding: 8px;
+}
+
+.per-tab .ant-tabs-nav::before{
+   border: none;
+}
+
+.per-tab .ant-tabs-tab{
+   border: none !important;
+}
+.per-tab .ant-tabs-tab:not(:first-child){
+   margin-left: 6px!important;
+}
+.per-tab-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   border: none;
+   outline: none;
+}
+.per-tab-btn:hover {
+   color: white!important;
+}
+.per-tab-btn span{
+   margin: 2px!important;
+}
+
+.per-table {
+   margin-top: 4px;
+}
+.per-tab-btn-refresh,
+.per-tab-btn-update {
+   background-color: var(--blue-btn);
+}
+.per-tab-btn-refresh:hover,
+.per-tab-btn-update:hover {
+   background-color: var(--blue-btn-hover);
+}
+
+.per-tab-btn-add {
+   background-color: var(--orange-btn);
+}
+
+.per-tab-btn-add:hover {
+   background-color: var(--orange-btn-hover);
+}
+
+.per-tab-btn-delete {
+   background-color: var(--red-btn);
+}
+
+.per-tab-btn-delete:hover {
+   background-color: var(--red);
+}
+
+.per-tab-btn-edit {
+   background-color: var(--green-btn);
+}
+
+.per-tab-btn-edit:hover {
+   background-color: var(--green-btn-hover);
+}
+
+.per-tab-btn-disabled {
+   background-color: var(--btn-disabled)!important;
+   color: white!important;
+}
+
+.per-tab-btn-disabled:hover {
+   background-color: var(--btn-disabled);
+}

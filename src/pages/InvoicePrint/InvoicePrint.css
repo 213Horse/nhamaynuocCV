@@ -1,0 +1,107 @@
+
+
+.fix-popover-z-index_ip {
+  z-index: 10 !important;
+}
+
+/* tab list invoice print*/ 
+.wrapper-contract {
+  position: relative;
+}
+
+.gutter-item {
+  margin-right: 6px;
+}
+
+/* button search */
+.contract-search-btn {
+  margin-left: 12px;
+}
+
+/* func bottom */
+.ant-layout-content {
+  position: relative;
+}
+
+.InvoicePrint-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 280px;
+  border-radius: 6px;
+  padding: 6px 6px 0 6px;
+ 
+}
+
+/* tab list */ 
+/* Tabs */
+.tab-item-ip {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.tab-item-ip:hover {
+  transition: 0.3s all;
+}
+
+.tab-item-ip-1 {
+  background-color: var(--blue-btn);
+}
+
+.tab-item-ip-1:hover {
+  background-color: var(--blue-btn-hover);
+}
+
+.tab-item-ip-2 {
+  background-color: var(--orange-btn);
+}
+
+.tab-item-ip-2:hover {
+  background-color: var(--orange-btn-hover);
+}
+
+.tab-item-ip-3 {
+  background-color: var(--red-btn);
+}
+
+.tab-item-ip-3:hover {
+  background-color: var(--red);
+}
+
+.tab-item-ip-4 {
+  background-color: var(--green-btn);
+}
+
+.tab-item-ip-4:hover {
+  background-color: var(--green-btn-hover);
+}
+
+.tab-item-ip-5 {
+  background-color: var(--purple-btn);
+}
+
+.tab-item-ip-5:hover {
+  background-color: var(--purple-btn-hover);
+}
+
+.tab-item-ip-6 {
+  background-color: var(--orange-light-btn);
+}
+
+.tab-item-ip-6:hover {
+  background-color: var(--orange-light-btn-hover);
+}
+
+.tab-item-ip-7 {
+  background-color: var(--red-btn);
+}
+
+.tab-item-ip-7:hover {
+  background-color: var(--red);
+}
+
+.tab-item-ip span {
+  margin-right: 2px !important;
+}

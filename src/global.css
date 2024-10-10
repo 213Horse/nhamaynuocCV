@@ -1,0 +1,21 @@
+.ant-collapse-content-box
+  .ant-form
+  .ant-col:nth-child(odd)
+  .ant-form-item-label {
+  text-align: start !important;
+}
+.ant-collapse-content-box
+  .ant-form
+  .ant-col:nth-child(even)
+  .ant-form-item-label {
+  text-align: start !important;
+  padding: 0 12px;
+}
+@media screen and (max-width: 768px) {
+  .ant-collapse-content-box
+    .ant-form
+    .ant-col:nth-child(even)
+    .ant-form-item-label {
+    padding: 0px !important;
+  }
+}

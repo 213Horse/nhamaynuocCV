@@ -1,0 +1,30 @@
+.button-add{
+    background-color: #fa896b;
+    border: none;
+    color: white;
+}
+.button-add:hover{
+    background-color: #e9491e;
+    border: none;
+    color: white !important;
+}
+
+.button-update-nha-may{
+    background-color: #0ce3bc;
+    border: none;
+    color: white;
+}
+.button-update button{
+    background-color: #0ce3bc;
+}
+
+.button-update:hover{
+    background-color: #0ce3bcbd !important;
+    border: none;
+    color: white !important;
+}
+
+.button-disable{
+    background-color: gray;
+    pointer-events: none !important;
+}

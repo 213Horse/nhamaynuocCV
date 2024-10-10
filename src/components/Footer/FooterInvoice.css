@@ -1,0 +1,126 @@
+/* Tabs */
+.tab-item-Invoice {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.tab-item-Invoice:hover {
+  transition: 0.3s all;
+}
+
+.tab-item-Invoice-6,
+.tab-item-Invoice-1 {
+  background-color: #fef5e5;
+  border: 1px solid #fa896b;
+  color: #fa896b;
+}
+
+.tab-item-Invoice-6:hover,
+.tab-item-Invoice-1:hover {
+  /* background-color: var(--blue-light-btn-hover); */
+}
+
+.tab-item-Invoice-2 {
+  background-color: #2a3547;
+  color: #fff;
+}
+
+.tab-item-Invoice-2:hover {
+  /* background-color: #ecf2ff; */
+}
+
+.tab-item-Invoice-8,
+.tab-item-Invoice-3 {
+  background-color: var(--blue-light-btn);
+}
+
+.tab-item-Invoice-8:hover,
+.tab-item-Invoice-3:hover {
+  background-color: var(--blue-light-btn-hover);
+}
+
+.tab-item-Invoice-4 {
+  background-color: #ffffff;
+  border: 1px solid #fa896b;
+  color: #fa896b;
+}
+
+.tab-item-Invoice-4:hover {
+  background-color: #fa896b;
+  color: #ffff;
+}
+
+.tab-item-Invoice-5 {
+  background-color: #e6fffa;
+  border: 1px solid #47e4cf;
+  color: #47e4cf;
+}
+
+.tab-item-Invoice-5:hover {
+  /* background-color: ; */
+}
+
+.tab-item-Invoice-6 {
+  /* background-color: var(--green-btn-hover); */
+}
+
+.tab-item-Invoice-6:hover {
+  /* background-color: var(--orange-light-btn-hover); */
+}
+
+.tab-item-Invoice-9,
+.tab-item-Invoice-7 {
+  background-color: #1677ff;
+  color: #fff;
+}
+
+.tab-item-Invoice-9:hover,
+.tab-item-Invoice-7:hover {
+  /* background-color: var(--sky-blue-hover); */
+}
+
+/* .tab-item-Invoice-8 {
+    background-color: var(--orange-medium-btn);
+}
+
+.tab-item-Invoice-8:hover {
+    background-color: var(--orange-medium-btn-hover);
+} */
+
+.tab-item-Invoice-10 {
+  background-color: var(--orange-medium-btn);
+}
+
+.tab-item-Invoice-10:hover {
+  background-color: var(--orange-medium-btn-hover);
+}
+
+.tab-item-Invoice-11 {
+  background-color: var(--orange-medium-btn);
+}
+
+.tab-item-Invoice-11:hover {
+  background-color: var(--orange-medium-btn-hover);
+}
+
+.tab-item-Invoice span {
+  margin-right: 2px !important;
+}
+
+.tab-item-Invoice-disabled {
+  border-color: #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+  cursor: not-allowed;
+}
+
+/* button modal */
+.create-modal {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  border-radius: 6px;
+}

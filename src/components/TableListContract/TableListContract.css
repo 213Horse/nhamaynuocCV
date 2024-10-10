@@ -1,0 +1,581 @@
+.contract-tbl-icon-btn {
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  color: var(--blue-1677ff);
+}
+
+/* container table list contract  */
+.container-tbl-contract {
+  position: relative;
+  margin-bottom: 28px;
+  overflow-x: auto;
+}
+
+/* Modal tbl contract */
+.title-update-info-contract {
+  margin-bottom: 12px;
+}
+
+.container-modal-tbl-contract {
+  position: relative;
+}
+
+.inner-modal-tbl-contract {
+  overflow-x: auto;
+}
+
+/* checkbox on modal */
+.gutter-item-chk {
+  margin-top: 5px;
+}
+
+/* date picker on modal */
+.gutter-item-date-picker {
+  width: 100% !important;
+}
+
+.space-col {
+  margin: 10px 0;
+}
+
+/* table clock on modal  */
+.tablist-tbl-clock-on-modal {
+  overflow-x: auto;
+}
+
+/* func clock on modal */
+.tablist-func-clock-btn {
+  margin-bottom: 6px;
+}
+
+/* Tabs */
+.tab-item {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.tab-item:hover {
+  transition: 0.3s all;
+}
+
+.tab-item-1 {
+  background-color: var(--blue-btn);
+}
+
+.tab-item-1:hover {
+  background-color: var(--blue-btn-hover);
+}
+
+.tab-item-2 {
+  background-color: var(--orange-btn);
+}
+
+.tab-item-2:hover {
+  background-color: var(--orange-btn-hover);
+}
+
+.tab-item-3 {
+  background-color: var(--red-btn);
+}
+
+.tab-item-3:hover {
+  background-color: var(--red);
+}
+
+.tab-item-4 {
+  background-color: var(--green-btn);
+}
+
+.tab-item-4:hover {
+  background-color: var(--green-btn-hover);
+}
+
+.tab-item-5 {
+  background-color: var(--purple-btn);
+}
+
+.tab-item-5:hover {
+  background-color: var(--purple-btn-hover);
+}
+
+.tab-item-6 {
+  background-color: var(--orange-light-btn);
+}
+
+.tab-item-6:hover {
+  background-color: var(--orange-light-btn-hover);
+}
+
+.tab-item-7 {
+  background-color: var(--sky-blue);
+}
+
+.tab-item-7:hover {
+  background-color: var(--sky-blue-hover);
+}
+
+.tab-item-8 {
+  background-color: var(--orange-medium-btn);
+}
+
+.tab-item-8:hover {
+  background-color: var(--orange-medium-btn-hover);
+}
+
+.tab-item span {
+  margin-right: 2px !important;
+}
+
+/* container table history use water */
+.container-tbl-history-water {
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.history-water-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-tbl-his {
+  text-align: center;
+}
+
+.title-tbl-his p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Info history */
+.info-his-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-his-item-lbl {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.info-his-item-val,
+.info-his-item-val-stt,
+.info-his-item-val-address,
+.info-his-item-val-address-use,
+.info-his-item-val-phone,
+.info-his-item-val-ntc,
+.info-his-item-val-type-contract,
+.info-his-item-val-mst,
+.info-his-item-val-obj-use,
+.info-his-item-val-mtt,
+.info-his-item-val-nld,
+.info-his-item-val-sdt {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* Số thứ tự: */
+.info-his-item-val-stt {
+  margin-left: 48px;
+}
+
+/* Địa chỉ: */
+.info-his-item-val-address {
+  margin-left: 66px;
+}
+
+/* Địa chỉ sử dụng: */
+.info-his-item-val-address-use {
+  margin-left: 5px;
+}
+
+/* Số điện thoại */
+.info-his-item-val-phone {
+  margin-left: 20px;
+}
+
+/* Ngày thay cuối */
+.info-his-item-val-ntc {
+  margin-left: 5px;
+}
+
+/* Loại đồng hồ: */
+.info-his-item-val-type-contract {
+  margin-left: 40px;
+}
+
+/* Mã số thuế: */
+.info-his-item-val-mst {
+  margin-left: 62px;
+}
+
+/* Đối tượng sử dụng */
+.info-his-item-val-obj-use {
+  margin-left: 8px;
+}
+
+/* Mã tiêu thụ */
+.info-his-item-val-mtt {
+  margin-left: 60px;
+}
+
+/* Ngày lắp đặt */
+.info-his-item-val-nld {
+  margin-left: 46px;
+}
+
+/* Số đồng hồ */
+.info-his-item-val-sdt {
+  margin-left: 60px;
+}
+
+.container-detail-clock {
+  height: 430px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-radius: 6px;
+  /* box-shadow: 2px 2px 5px #ccc; */
+  overflow-y: scroll;
+  margin-bottom: 10px;
+}
+
+.container-info-contract {
+  height: 440px;
+  padding: 10px;
+  border-radius: 6px;
+  /* box-shadow: 2px 2px 5px #ccc; */
+  overflow-y: scroll;
+  margin-right: 10px;
+}
+
+.container-info-clock {
+  height: 360px;
+  padding: 10px;
+  border-radius: 6px;
+  /* box-shadow: 2px 2px 5px #ccc; */
+  overflow-y: scroll;
+}
+
+.container-info-customer {
+  height: 350px;
+  padding: 10px;
+  border-radius: 6px;
+  /* box-shadow: 2px 2px 5px #ccc; */
+  overflow-y: scroll;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* Border all card */
+.card-item-title {
+  font-size: 1.6rem !important;
+}
+
+/* Buttons change clock */
+.btn-func-change-clock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-close-change-clock {
+  margin-left: 12px;
+}
+
+/* Debt (Tiện ích) */
+.debt-title-name {
+  margin-top: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.debt-title-name:hover {
+  color: var(--blue-1677ff);
+  transition: 0.4s all;
+}
+
+.debt-icon-left {
+  margin-right: 6px;
+}
+
+.debt-func-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.space-btn-item {
+  margin-right: 10px;
+}
+
+/* container table debt */
+.container-tbl-debt {
+  overflow-x: auto;
+}
+
+/* Popover */
+.popover-debt {
+  pointer-events: none;
+}
+
+/* Buttons update info debt */
+.func-update-info-debt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item-update-info-debt-btn {
+  margin: 0 12px;
+}
+
+/* container debt utilities */
+.container-debt-utilities {
+  display: flex;
+  flex-direction: column;
+}
+
+/* container table sort number */
+.container-tbl-sort-number {
+  overflow-x: auto;
+}
+
+/* Buttons sort number */
+.func-sort-number-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item-sort-number-btn {
+  margin-right: 12px;
+}
+
+/* Collapse space */
+.collapse-space-left-item {
+  margin-left: 10px;
+}
+
+/* Custom buttons */
+.custom-btn-reset-form-contract {
+  padding: 0 10px;
+}
+
+.custom-btn-3-form-contract {
+  padding: 0 13px;
+}
+
+/* Custom label + input */
+.container-label-input {
+  display: flex;
+  align-items: center;
+}
+
+.space-right-10 {
+  margin-right: 10px;
+}
+
+.space-right-10.inp-select-item {
+  width: 50%;
+}
+
+.info-clock-edit-file {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.modal-func-files {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.files-btn-close {
+  margin-left: 10px;
+}
+
+/* Modal (Đồng hồ hiện tại) */
+.modal-clock-curr-info {
+  overflow-y: scroll;
+}
+
+/* Modal (Đồng hồ mới) */
+.modal-clock-new-info {
+  height: 70vh;
+  overflow-y: scroll;
+  padding-right: 6px;
+}
+
+/* Modal (Thay đồng hồ mới) */
+.modal-locomotive-info {
+  overflow-y: scroll;
+}
+
+.icon-reset-rad-btn {
+  font-size: 1.7rem;
+  color: var(--blue-btn);
+  cursor: pointer;
+}
+
+.icon-reset-rad-btn:hover {
+  color: var(--blue-btn-hover);
+  opacity: 0.6;
+  transition: all 0.3s;
+  animation: resetButton 1s linear;
+}
+
+@keyframes resetButton {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.space-left-6 {
+  margin-left: 6px;
+}
+
+.disabled-is-update {
+  background-color: #ccc !important;
+  border: 1px solid #ccc !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* status clock water */
+.status-normal-water-clock {
+  color: var(--blue-1677ff) !important;
+}
+
+.status-cancel-water-clock {
+  color: var(--red) !important;
+}
+
+/* react split panel */
+.splitter-container {
+  height: 73vh;
+}
+
+.splitter-container-attachment {
+  height: 61vh;
+}
+
+.splitter-bottom {
+  /* margin-top: 5rem; */
+  /* height: 50%; */
+  border-radius: 6px;
+  /* bottom: 280px; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: #d5d7d9; */
+}
+
+/* Thanh kéo  */
+.split-sash-content {
+  border-radius: 12px;
+  background-color: #0000ff40;
+}
+
+.option-files-hide {
+  display: none;
+  cursor: pointer;
+}
+
+.file-img-of-contract {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover;
+}
+
+.info-attachment-left-container {
+  height: 45vh;
+  overflow-y: scroll;
+}
+
+.info-attachment-left {
+  display: flex;
+  align-items: center;
+}
+
+.attachment-left-icon-del {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.attachment-icon-del {
+  color: var(--red);
+}
+
+.attachment-right-item {
+  margin-left: 12px;
+}
+
+.loading-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.icon-loading {
+  color: var(--blue-1677ff) !important;
+}
+
+.btn-attachment:hover {
+  cursor: pointer;
+}
+
+.option-files {
+  cursor: pointer;
+}
+
+/* Chuyển */
+.container-transfer-switch {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-reading-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+.form-create-contract-btns {
+  margin-top: 10px;
+}
+
+.ForwardIcon:hover {
+  opacity: 0.6;
+}
+
+.soHo #number.ant-input-number-input {
+  font-weight: bolder;
+}
+.soHoTu #number.ant-input-number-input {
+  font-weight: bolder;
+}
+
+.soHopDong input#soHopDong {
+  font-weight: bolder;
+}
+.maKhachHang input#maKhachHang {
+  font-weight: bolder;
+}
+.tenKhachHang input#tenKhachHang {
+  font-weight: bolder;
+}
+.seriDongHo input#seriDongHo {
+  font-weight: bolder;
+}

@@ -1,0 +1,12 @@
+.wrapper-reporter {
+    display: flex;
+    align-items: center;
+}
+
+.reset-report-btn.custom-btn-reset {
+    margin-left: 10px;
+}
+
+.reporter-search {
+    width: 25%;
+}

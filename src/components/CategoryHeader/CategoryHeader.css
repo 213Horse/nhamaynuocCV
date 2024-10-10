@@ -1,0 +1,197 @@
+.category-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-header-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.category-header-filter {
+  display: flex;
+  gap: 5px;
+}
+
+.category-header-filter .filter-input {
+  width: 300px;
+}
+
+.category-reading-edit-button {
+  background-color: #0ce3bc;
+  color: #ffffff;
+  height: "34px";
+  border-radius: "6px";
+  width: 100%;
+  border: none;
+}
+.category-reading-edit-button:hover {
+  background-color: #0ce3bc;
+  color: #ffffff !important;
+  height: "34px";
+  border-radius: "6px";
+  border: none;
+}
+
+.category-reading-delete-button__disabled,
+.category-reading-edit-button__disabled {
+  background-color: #808080 !important;
+  color: #ffff !important;
+  width: 100%;
+}
+
+.button {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+}
+/* phone: width < 740px */
+@media (max-width: 46.1875em) {
+  .category-header-wrapper {
+    flex-direction: column;
+    align-items: normal;
+    row-gap: 5px;
+  }
+  .button {
+    width: 100%;
+  }
+  .category-header-filter {
+    flex-direction: column;
+  }
+  .category-header-filter .filter-input,
+  .ant-picker {
+    width: 100%;
+  }
+  .category-header-content {
+    position: fixed;
+    right: 16px;
+    z-index: 9999;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+  .button-update button,
+  .button-delete button {
+    width: 100%;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 769px đến 991px (desktop - large desktop) */
+@media (min-width: 767px) and (max-width: 991px) {
+  .category-header-content {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+  .category-header-wrapper {
+    display: inline;
+  }
+  .category-header-filter {
+    flex-direction: column;
+  }
+  .category-header-filter .filter-input,
+  .ant-picker {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .category-header-content {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 99px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+  .category-header-filter {
+    flex-direction: column;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 576px đến 767px (tablet) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .category-header-content {
+    position: fixed;
+    right: 16px;
+    bottom: 12px;
+    font-size: 2rem;
+    z-index: 9999;
+    font-weight: 800;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: var(--white);
+    background-color: var(--blue-1677ff);
+    box-shadow: 0 0 12px 0 var(--blue-1677ff);
+  }
+  .category-header-wrapper {
+    display: inline;
+  }
+  .category-header-filter {
+    flex-direction: column;
+  }
+  .category-header-filter .filter-input,
+  .ant-picker {
+    width: 100%;
+  }
+  .button {
+    width: 100%;
+  }
+}
+
+/* Thiết kế cho kích thước màn hình từ 768px trở lên (desktop) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .category-header-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  .category-header-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

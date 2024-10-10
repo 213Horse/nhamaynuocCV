@@ -1,0 +1,9 @@
+.actions-title {
+   margin: 10px 0;
+}
+.header-search-table .ant-table-tbody{
+   display: none;
+}
+.custom-table-staff .ant-table-container {
+   border-top: none!important;
+}

@@ -1,0 +1,47 @@
+.wrapper-contract {
+  position: relative;
+}
+
+.gutter-item {
+  margin-right: 6px;
+}
+
+/* button search */
+.contract-search-btn {
+  margin-left: 12px;
+}
+
+/* func bottom */
+.ant-layout-content {
+  position: relative;
+}
+
+.contract-bottom {
+  position: fixed;
+  bottom: 4px;
+  /* right: 0px; */
+  border-radius: 6px;
+  padding: 6px 6px 0 6px;
+}
+
+/* tab list */
+.ant-tabs-nav {
+  margin-bottom: 4px !important;
+}
+
+.contract-bottom-func {
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+  /* background-color: var(--white); */
+  /* box-shadow: 0 0 16px 0 #333; */
+}
+
+.contract-bottom-func:hover {
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.custom-collapse .ant-collapse-content-box {
+  padding: 6px !important;
+}

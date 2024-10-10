@@ -1,0 +1,81 @@
+
+/* Tabs */
+.tab-item-bc {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.tab-item-bc:hover {
+    transition: 0.3s all;
+}
+
+.tab-item-bc-1 {
+    background-color: var(--blue-btn);
+}
+
+.tab-item-bc-1:hover {
+    background-color: var(--blue-btn-hover);
+}
+
+.tab-item-bc-2 {
+    background-color: var(--orange-btn);
+}
+
+.tab-item-bc-2:hover {
+    background-color: var(--orange-btn-hover);
+}
+
+.tab-item-bc-4 {
+    background-color: var(--red-btn);
+}
+
+.tab-item-bc-4:hover {
+    background-color: var(--red);
+}
+
+.tab-item-bc-3 {
+    background-color: var(--green-btn);
+}
+
+.tab-item-bc-3:hover {
+    background-color: var(--green-btn-hover);
+}
+
+.tab-item-bc-5 {
+    background-color: var(--purple-btn);
+}
+
+.tab-item-bc-5:hover {
+    background-color: var(--purple-btn-hover);
+}
+
+.tab-item-bc-6 {
+    background-color: var(--orange-light-btn);
+}
+
+.tab-item-bc-6:hover {
+    background-color: var(--orange-light-btn-hover);
+}
+
+.tab-item-bc-7 {
+    background-color: var(--sky-blue);
+}
+
+.tab-item-bc-7:hover {
+    background-color: var(--sky-blue-hover);
+}
+
+.tab-item-bc-8 {
+    background-color: var(--orange-medium-btn);
+}
+
+.tab-item-bc-8:hover {
+    background-color: var(--orange-medium-btn-hover);
+}
+    
+.tab-item-bc span {
+    margin-right: 2px !important;
+}

@@ -1,0 +1,41 @@
+/* tbl info date */
+.tbl-info-date {
+    margin: 10px 10px 10px 0;
+}
+
+/* tbl info contract */
+.tbl-info-contract {
+    margin-top: 10px;
+}
+
+/* footer */
+.pay-counter-footer-text {
+    color: var(--red);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.pay-counter-footer-quantity {
+    border: 1px solid var(--blue-1677ff);
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.pay-counter-footer-total {
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.tbl-info-customer {
+    margin: 10px 0;
+}
+
+.pay-counter-pay-and-close {
+    display: flex;
+    justify-content: flex-end;
+}

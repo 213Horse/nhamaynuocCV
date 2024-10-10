@@ -1,0 +1,56 @@
+.bigger{
+    /* transition: all 0.5s; */
+}
+
+.bigger:hover{
+    /* transform: scale(1.01); */
+    /* z-index: 1000; */
+}
+
+#write-index::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+.chi-so-dh {
+    color: var(--blue-1677ff);
+}
+
+.tthu {
+    color: var(--red-btn)
+}
+
+.lbl-item {
+    font-size: 1.4rem;
+}
+
+.lbl-item-so-doc {
+    margin-right: 4px;
+    font-size: 1.4rem;
+}
+
+.val-item-so-doc {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card-so-doc:hover {
+    opacity: 0.8;
+}
+
+.custom-paragraph {
+    margin-top: -14px;
+}
+
+.tooltip-card-so-doc {
+    display: flex;
+    align-items: center;
+}
+
+.chua-khoa-so {
+    color: blue;
+}
+
+.da-khoa-so {
+    color: red;
+}

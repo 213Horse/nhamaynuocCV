@@ -1,0 +1,61 @@
+.captcha-wrapper {
+  width: fit-content;
+  margin: 22px auto;
+}
+
+@media screen and (max-width: 576px) {
+  .captcha-wrapper {
+    margin: 20px auto 0;
+  }
+
+  .captcha-cn {
+    transform: scale(0.86) !important;
+    transform-origin: 0 0;
+  }
+
+  .captcha-fix-reading {
+    transform: scale(1.01) !important;
+  }
+
+  .captcha-fix-price-list {
+    transform: scale(1) !important;
+  }
+
+  .captcha-fix-trang-thai {
+    transform: scale(0.95) !important;
+  }
+
+  .captcha-fix-reasons-update {
+    transform: scale(0.86) !important;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .captcha-fix-galaxy-s8 {
+    transform: scale(0.76) !important;
+    transform-origin: 0 0;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .captcha-wrapper {
+    margin: 10px auto -30px;
+  }
+
+  .captcha-cn {
+    transform: scale(0.5) !important;
+  }
+
+  .captcha-fix-reading {
+    transform: scale(0.66) !important;
+  }
+
+  .captcha-fix-price-list {
+    margin-top: 10px;
+    transform: scale(0.636) !important;
+  }
+
+  .captcha-fix-trang-thai {
+    transform: scale(0.59) !important;
+  }
+}

@@ -1,0 +1,84 @@
+/* Tabs */
+.tab-item-LogNotice {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.tab-item-LogNotice:hover {
+    transition: 0.3s all;
+} 
+
+.tab-item-LogNotice-3,
+.tab-item-LogNotice-1 {
+    background-color: #e6fffa;
+    border: 1px solid #13deb9;
+    color: #13deb9;
+}
+
+.tab-item-LogNotice-3:hover,
+.tab-item-LogNotice-1:hover {
+    background-color: #13deb9;
+    color: #fff;
+}
+
+
+.tab-item-LogNotice-5 {
+    background-color: #1677ff;
+    color: #fff;
+}
+
+.tab-item-LogNotice-5:hover {
+    /* background-color: ; */
+}
+
+.tab-item-LogNotice-4,
+.tab-item-LogNotice-2 {
+    background-color: var(--green-btn-hover);
+}
+
+.tab-item-LogNotice-2:hover {
+    /* background-color: var(--orange-light-btn-hover); */
+}
+
+.tab-item-LogNotice-9,
+.tab-item-LogNotice-7 {
+    background-color: #1677ff;
+    color: #fff;
+}
+
+.tab-item-LogNotice-9:hover, 
+.tab-item-LogNotice-7:hover {
+    /* background-color: var(--sky-blue-hover); */
+}
+
+.tab-item-LogNotice-6 {
+    background-color: var(--orange-medium-btn-hover);
+
+}
+
+
+.tab-item-LogNotice-10 {
+    background-color: var(--orange-medium-btn);
+}
+
+.tab-item-LogNotice-10:hover {
+    background-color: var(--orange-medium-btn-hover);
+}
+
+.tab-item-LogNotice span {
+    margin-right: 2px !important;
+}
+
+
+/* button modal */
+.create-modal {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    border-radius: 6px;
+}
+
+

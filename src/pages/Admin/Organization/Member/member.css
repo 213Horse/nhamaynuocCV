@@ -1,0 +1,9 @@
+.sub-sidebar-menu {
+   
+}
+
+.sub-sidebar-menu .ant-menu-item.ant-menu-item-only-child, 
+.sub-sidebar-menu .ant-menu-submenu-title {
+   height: 26px !important; 
+   line-height: 26px !important;
+}

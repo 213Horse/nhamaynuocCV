@@ -1,0 +1,29 @@
+.folder-wrapper {
+   height: 100%;
+   background-color: #fff;
+   border-radius: 6px;
+   padding: 8px;
+}
+
+.folder-tab .ant-tabs-nav::before{
+   border: none;
+}
+
+.folder-tab .ant-tabs-tab{
+   border: none !important;
+}
+.folder-tab .ant-tabs-tab:not(:first-child){
+   margin-left: 6px!important;
+}
+.folder-tab-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.folder-tab-btn span{
+   margin: 0!important;
+}
+
+.folder-table {
+   margin-top: 4px;
+}

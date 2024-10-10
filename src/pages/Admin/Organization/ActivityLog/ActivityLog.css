@@ -1,0 +1,43 @@
+.folder-wrapper {
+   height: 100%;
+   background-color: #fff;
+   border-radius: 6px;
+   padding: 8px;
+}
+
+.folder-tab .ant-tabs-nav::before{
+   border: none;
+}
+
+.folder-tab .ant-tabs-tab{
+   border: none !important;
+}
+.folder-tab .ant-tabs-tab:not(:first-child){
+   margin-left: 6px!important;
+}
+.folder-tab-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.folder-tab-btn span{
+   margin: 0!important;
+}
+
+.folder-table {
+   margin-top: 4px;
+}
+@media (min-width: 991px) and (max-width: 1900px){
+   .contract-bottom-al {
+      position: fixed;
+      right: 16px;
+      bottom: 12px;
+      font-size: 2rem;
+      font-weight: 800;
+      border-radius: 99px;
+      padding: 12px;
+      color: var(--white);
+      background-color: var(--blue-1677ff);
+      box-shadow: 0 0 12px 0 var(--blue-1677ff);
+    }
+}

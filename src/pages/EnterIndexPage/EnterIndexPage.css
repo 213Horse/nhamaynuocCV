@@ -1,0 +1,241 @@
+
+
+/* Tabs */
+.tab-item-ep {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.tab-item-ep:hover {
+  transition: 0.3s all;
+}
+
+.tab-item-ep-1 {
+  background-color: blue;
+}
+
+.tab-item-ep-1:hover {
+  background-color: var(--blue-btn-hover);
+}
+
+.tab-item-ep-2 {
+  background-color: var(--orange-btn);
+}
+
+.tab-item-ep-2:hover {
+  background-color: var(--orange-btn-hover);
+}
+
+.tab-item-ep-4 {
+  background-color: var(--red-btn);
+}
+
+.tab-item-ep-4:hover {
+  background-color: var(--red);
+}
+
+.tab-item-ep-3 {
+  background-color: var(--green-btn);
+}
+
+.tab-item-ep-3:hover {
+  background-color: var(--green-btn-hover);
+}
+
+.tab-item-ep-5 {
+  background-color: var(--purple-btn);
+}
+
+.tab-item-ep-5:hover {
+  background-color: var(--purple-btn-hover);
+}
+
+.tab-item-ep-9 {
+  background-color: var(--orange-light-btn);
+}
+
+.tab-item-ep-9:hover {
+  background-color: var(--orange-light-btn-hover);
+}
+
+.tab-item-ep-7 {
+  background-color: var(--sky-blue);
+}
+
+.tab-item-ep-7:hover {
+  background-color: var(--sky-blue-hover);
+}
+
+.tab-item-ep-8 {
+  background-color: var(--orange-medium-btn);
+}
+
+.tab-item-ep-8:hover {
+  background-color: var(--orange-medium-btn-hover);
+}
+.tab-item-ep-6 {
+  background-color: var(--sky-blue);
+}
+
+.tab-item-ep-6:hover {
+  background-color: var(--sky-blue-hover);
+}
+.tab-item-ep span {
+  margin-right: 2px !important;
+}
+
+
+.EnterIndexPage-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 280px;
+  border-radius: 6px;
+  padding: 6px 6px 0 6px;
+  background-color: var(--blue-e6f4ff);
+}
+/* tab list invoice print*/ 
+.wrapper-contract {
+  position: relative;
+}
+
+.gutter-item {
+  margin-right: 6px;
+}
+
+/* button search */
+.contract-search-btn {
+  margin-left: 12px;
+}
+
+/* func bottom */
+.ant-layout-content {
+  position: relative;
+}
+
+/* tab list */ 
+.ant-tabs-nav {
+  margin-bottom: 4px !important;
+}
+.ant-tabs-nav {
+  margin-bottom: 4px !important;
+}
+/* ................................ */
+   .footer-buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .ant-table-thead .ant-table-cell {
+    font-size: 13px;
+    font-weight: 800 !important;
+}
+.ant-table-cell {
+  font-size: 10px;
+  font-weight: 600;
+}
+.ant-table-small table {
+  font-size: 12px;
+}
+/* @media (max-width: 600px) {
+    .custom-form-item {
+      flex-direction: column;
+    }
+  } */
+  /* .table.d1 {
+    font-size: 50%;
+} */
+
+  /* .full-width-col {
+    flex-grow: 0;
+  }
+.custom-row {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .custom-form-item {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .small-button {
+    width: 80px;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+  } */
+  /* các ô xanh đỏ tím vàng  */
+  /* .color-boxes {
+    display: flex;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .blue {
+    border: 2px solid blue;
+  }
+  
+  .red {
+    border: 2px solid red;
+  }
+  
+  .purple {
+    border: 2px solid purple;
+  }
+  
+  .yellow {
+    border: 2px solid yellow;
+  } */
+  
+  /* kich thước các ô */
+  /* input#month {
+    font-size: 70%;
+}
+input#\31 {
+    font-size: 70%;
+}
+input#\32 {
+    font-size: 70%;
+}
+.s1 {
+    font-size: 70%;
+}
+input#\33 {
+    font-size: 70%;
+}
+input#\34 {
+    font-size: 70%;
+}
+input#\35 {
+    font-size: 70%;
+}
+input#\36 {
+    font-size: 70%;
+}
+input#\37 {
+    font-size: 70%;
+}
+input#\38 {
+    font-size: 70%;
+}
+input#\39 {
+    font-size: 70%;
+} */

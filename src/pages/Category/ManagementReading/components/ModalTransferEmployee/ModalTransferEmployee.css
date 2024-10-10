@@ -1,0 +1,10 @@
+.popup-add-transfer-employee {
+  padding-bottom: 0px;
+  top: 35%;
+}
+.transfer-manager-select .ant-form-item-row {
+  display: inline;
+}
+.transfer-manager-select .ant-form-item-row .ant-col {
+  display: inline;
+}

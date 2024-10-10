@@ -1,0 +1,28 @@
+.bigger {
+  transition: all 0.5s;
+}
+
+.bigger:hover {
+  transform: scale(1.01);
+  z-index: 1000;
+}
+
+#write-index::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  color: #93d9bc8f;
+}
+
+.hover-effect {
+  transition: all 0.5s;
+}
+.hover-effect:hover {
+  background-color: #93d9bc8f;
+}
+
+/* :where(.css-dev-only-do-not-override-9b0jua).ant-modal-root .ant-modal-wrap {
+  z-index: 10000 !important;
+} */
+/* :where(.css-dev-only-do-not-override-9b0jua).ant-modal-root .ant-modal-wrap {
+    z-index: 10000 !important;
+  } */

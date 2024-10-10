@@ -1,0 +1,48 @@
+.title-invoice {
+    text-align: center;
+}
+
+.customer-info {
+    margin-top: 20px;
+}
+
+#print-invoice table,
+#print-invoice th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-invoice td {
+    border-right: 1px solid black;
+    text-align: right;
+    padding-right: .5rem;
+}
+
+.table-invoice .total td {
+    border: 1px solid black;
+    text-align: right;
+    padding-right: .5rem;
+}
+
+.table-invoice .total td:first-child {
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.table-invoice {
+    width: 100%;
+}
+
+.table-invoice .sign td {
+    border: 1px solid black;
+}
+
+#print-invoice {
+    background-color: white;
+}
+
+@media print {
+    #print-invoice {
+        padding: 1.5rem;
+    }
+}
